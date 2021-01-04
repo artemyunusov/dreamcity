@@ -1,3 +1,25 @@
+.mapping {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+svg path {
+  stroke-width: 2px;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+.span {
+  color: black;
+  pointer-events: none;
+}
+
+.svg__link:hover path {
+  fill: #fff;
+  stroke: black;
+}
+
 @font-face {
   font-family: 'helvetica';
   font-style: normal;
